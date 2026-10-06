@@ -1,3 +1,28 @@
+# Vita3K-TriggerTilt
+
+An unofficial, focused fork of [Vita3K+](https://github.com/nckstwrt/Vita3K-Plus)
+adding optional L2/R2 analog tilt for gamepads without motion sensors.
+All credit for the emulator belongs to the Vita3K and Vita3K+ contributors.
+
+- [Download the Windows release](https://github.com/Abhinav-0311/Vita3K-TriggerTilt/releases)
+- [Enable tilt, tune it, and read the tested scope](docs/TRIGGER_TILT.md)
+- [Release build details and source dependencies](docs/RELEASE_BUILD.md)
+
+The downloadable build is based on **Vita3K+ v1.1**, not the newest Vita3K+.
+L2/LT tilts left, R2/RT tilts right, and releasing both returns to level.
+The tester confirmed balancing in Uncharted: Golden Abyss with an EvoFox
+XInput controller on Windows. This is not full gyro emulation or a universal
+compatibility claim. Tilt is disabled by default; setup is documented above.
+
+The release contains no games, firmware, saves, personal settings, or game
+caches. Use a separate folder for testing, back up your saves/settings, and
+provide your own legally obtained game files and firmware.
+
+The original project documentation follows. Links and badges below describe
+upstream Vita3K, not verification of this fork.
+
+---
+
 # Vita3K
 
 [![C/C++ CI](https://github.com/Vita3K/Vita3K/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Vita3K/Vita3K/actions/workflows/c-cpp.yml)
